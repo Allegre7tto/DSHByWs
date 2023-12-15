@@ -1,3 +1,4 @@
+//用单链表实现
 #include <iostream>
 #include <fstream>
 #include <cstring>

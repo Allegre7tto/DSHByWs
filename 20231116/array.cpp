@@ -1,3 +1,4 @@
+//用顺序表实现
 #include <iostream>
 #include <fstream>
 #include <cstring>
