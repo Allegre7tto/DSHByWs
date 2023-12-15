@@ -1,3 +1,4 @@
+//练习1：采用邻接矩阵表示法创建无向网
 #include <iostream>
 using namespace std;
 

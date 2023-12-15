@@ -1,3 +1,4 @@
+//邻接表实现Dijkstra算法
 #include <iostream>
 using namespace std;
 

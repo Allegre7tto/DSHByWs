@@ -1,3 +1,4 @@
+//练习2：采用邻接表表示法创建无向网
 #include <iostream>
 using namespace std;
 
