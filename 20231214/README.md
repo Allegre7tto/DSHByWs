@@ -21,4 +21,4 @@
     2、基于下图，分别用邻接矩阵和邻接表这两种方式构建有向图
 
     3、主程序中输入起始顶点s和终点d，调用Dijkstra算法，打印出有向图中从顶点s到终点d的最短路径序列
-![Alt text](558aae7ed80ba3b8ffeec23b2bd1d9b6.png)
+![Alt text](Dijkstra_graph.png)
