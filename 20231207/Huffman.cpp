@@ -1,3 +1,4 @@
+//构造哈夫曼树并求哈夫曼编码
 #include <iostream>
 #include <cstring>
 using namespace std;

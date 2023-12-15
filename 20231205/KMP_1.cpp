@@ -1,3 +1,4 @@
+//使用string标准库实现
 #include <iostream>
 #include <fstream>
 #include <string>

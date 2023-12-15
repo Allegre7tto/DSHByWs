@@ -1,3 +1,4 @@
+//未使用stl中的string库
 #include <iostream>
 #include <fstream>
 using namespace std;
