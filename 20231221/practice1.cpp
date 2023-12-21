@@ -1,3 +1,4 @@
+//练习1：在顺序表L中查找值为e的数据元素
 #include <iostream>
 using namespace std;
 

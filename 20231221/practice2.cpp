@@ -1,3 +1,4 @@
+//练习2：折半查找
 #include <iostream>
 using namespace std;
 
