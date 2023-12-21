@@ -43,9 +43,10 @@ int main()
     for (int i=1;i<=m;++i){
         HT[i].key = NULLKEY;
     }
-    cout << "请输入哈希表的元素个数:";
+    //cout << "请输入哈希表的元素个数:";
     //int len;
     //cin >> len;
+    cout << "构建的哈希表为:" <<endl;
     for (int i=1;i<=m;++i){
         int tmp;
         cin >> tmp;
