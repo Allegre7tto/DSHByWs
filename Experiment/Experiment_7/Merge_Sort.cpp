@@ -1,5 +1,8 @@
+//归并排序
 #include <iostream>
 #include <cstdlib>
+#include <ctime>
+#include <chrono>
 using namespace std;
 
 const int n = 5*1e4;
@@ -36,15 +39,21 @@ void MergeSort(int arr[],int res[],int left,int right)
 
 int main()
 {
+    auto start = chrono::high_resolution_clock::now();
+
     int arr[n];
     for(int i=0;i<n;i++) 
         arr[i] = rand()%1000;
-    for (int i=0;i<n;i++) 
-        cout << arr[i] << " ";
+    /*for (int i=0;i<n;i++) 
+        cout << arr[i] << " "; */
     int res[n];
     cout <<endl;
     MergeSort(arr,res,0,n-1);
-    for(int i=0;i<n;i++) 
+    for(int i=0;i<n;i+=200) 
         cout << res[i] << " ";
+
+    auto end = chrono::high_resolution_clock::now();
+    chrono::duration<double> diff = end-start;
+    cout << endl << "程序执行时间: " << diff.count() << " 秒" << endl;
     return 0;
 }
