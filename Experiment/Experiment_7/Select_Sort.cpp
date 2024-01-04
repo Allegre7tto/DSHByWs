@@ -29,6 +29,6 @@ int main()
 
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> diff = end-start;
-    cout << endl << "程序执行时间: " << diff.count() << " 秒" << endl;
+    cout << endl << "选择排序程序执行时间: " << diff.count() << " 秒" << endl;
     return 0;
 }

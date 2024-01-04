@@ -43,11 +43,11 @@ int main()
         cout << arr[i] << " "; */
     cout <<endl;
     HeapSort(arr,n);
-    for(int i=0;i<n;i+=200) 
+    for(int i=1;i<n;i+=200) 
         cout << arr[i] << " ";
 
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> diff = end-start;
-    cout << endl << "程序执行时间: " << diff.count() << " 秒" << endl;
+    cout << endl << "堆排序程序执行时间: " << diff.count() << " 秒" << endl;
     return 0;
 }

@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     auto start = chrono::high_resolution_clock::now();
-    
+
     const int n = 5*1e4;
     int arr[n];
     for(int i=0;i<n;i++) 
@@ -32,6 +32,6 @@ int main()
 
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> diff = end-start;
-    cout << endl << "程序执行时间: " << diff.count() << " 秒" << endl;
+    cout << endl << "希尔排序程序执行时间: " << diff.count() << " 秒" << endl;
     return 0;
 }
